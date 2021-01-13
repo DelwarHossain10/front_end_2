@@ -1,0 +1,47 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .single-cta {
+        margin-left: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slider-height{
+        min-height: 650px;
+    }
+    .slider-content h2{
+        font-size: 56px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+    .service-box img {
+        width: 100%;
+    }
+    .cases-img img {
+        width: 100%;
+    }
+    .cases-content h4 {
+        font-size: 18px;
+    }
+    .testimonial-wrapper p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .faq-thumb img {
+    width: 100%;
+    margin-left: -15px;
+    }
+    .consultation-form {
+        padding: 40px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1320px) {}
